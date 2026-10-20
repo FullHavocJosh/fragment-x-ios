@@ -6,6 +6,15 @@
 
 [![codecov](https://codecov.io/gh/element-hq/element-x-ios/branch/develop/graph/badge.svg?token=AVIJB2MJU2)](https://codecov.io/gh/element-hq/element-x-ios)
 
+# Fragment X iOS
+
+> **Thought project.** This is a fork of [element-hq/element-x-ios](https://github.com/element-hq/element-x-ios) used to
+> explore whether a Discord-style Matrix client family (web, Linux and macOS desktop, Android, iOS and iPadOS) built
+> on Element's stack is viable. It is not a released product, it is not affiliated with or endorsed by Element, and
+> nothing here is supported. The tools used to evaluate it are listed at the bottom of this file.
+
+The text below is the upstream Element X iOS README.
+
 # Element X iOS
 
 Element X iOS is the next-generation [Matrix](https://matrix.org/) client provided by [Element](https://element.io/).
@@ -49,6 +58,24 @@ This software is dual licensed by Element Creations Ltd (Element). It can be use
 
 (1) for free under the terms of the GNU Affero General Public License (as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version); OR
 
-(2) under the terms of a paid-for Element Commercial License agreement between you and Element (the terms of which may vary depending on what you and Element have agreed to). 
+(2) under the terms of a paid-for Element Commercial License agreement between you and Element (the terms of which may vary depending on what you and Element have agreed to).
 
 Unless required by applicable law or agreed to in writing, software distributed under the Licenses is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the Licenses for the specific language governing permissions and limitations under the Licenses.
+
+## Automated/AI tools leveraged in these projects:
+
+These tools and models are being used to determine whether this project is viable.
+
+Tools:
+
+- Claude Code
+- `ai`, `aidev` and `ainfo` (local command line front ends that route work to the models below)
+- pi
+- OpenCode
+
+Models:
+
+- Claude (Anthropic): Sonnet and Haiku, plus Claude Sonnet 5.5 in the Claude Code session that created these forks
+- Qwen3.5 9B (local)
+- Qwen3-Coder-30B-A3B-Instruct (local, on device)
+- Big Pickle (OpenCode Zen)
